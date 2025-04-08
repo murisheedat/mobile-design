@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+}
+.container{
+display: flex;
+flex-direction: row;
+min-height: 100vh;
+}
+.left-section{
+    flex: 1;
+    background: linear-gradient(to top, #a855f7, #ec4899);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.right-section{
+    flex: 1;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-section h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.right-section p{
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 500px;
+}
+.phone{
+    background: white;
+    border-radius: 24px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.phone-header{
+    background: #a855f7;
+    color: white;
+    padding: 16px;
+    border-radius: 30px;
+}
+.profile-info .name{
+font-weight: bold;
+}
+.profile-info .status{
+    font-size: 12px;
+    opacity: 0.8;
+}
+.chat{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    gap: 10px;
+}
+.message{
+    max-width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 10px;
+}
+.left{
+    background: #e4e5e4;
+    align-items: flex-end;
+}
+.right{
+    background: #f9fafb;
+    text-align: right;
+    align-items: flex-end;
+}
+image{
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+.option{
+    background-color: #a855f7;
+    color: #f9fafb;
+    padding: 10px 12px;
+    border-radius: 15px;  
+     
+}
+.option span{
+    font-weight: bold;
+    margin: 10px;
+}
+.option-dark{
+    background: #7c3aed;
+    border-radius: 30px;
+    color: #eee;
+    font-size: large;
+    padding: 10px 12px;
+    font-weight: bold;
+}
+.input-area{
+    padding: 12px;
+    border-top: 1px solid #eee;
+}
+.input-area input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
